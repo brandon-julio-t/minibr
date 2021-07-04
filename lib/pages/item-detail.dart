@@ -48,8 +48,14 @@ class _ItemDetailState extends State<ItemDetail> {
           title: Text(item.name),
           bottom: TabBar(
             tabs: [
-              Tab(text: 'Details', icon: Icon(Icons.details)),
-              Tab(text: 'Reviews', icon: Icon(Icons.reviews)),
+              Tab(
+                text: 'Details',
+                icon: Icon(Icons.details),
+              ),
+              Tab(
+                text: 'Reviews',
+                icon: Icon(Icons.reviews),
+              ),
             ],
           ),
         ),

@@ -3,7 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:minibr/pages/item-detail.dart';
 import 'package:minibr/pages/items.dart';
 import 'package:minibr/pages/login.dart';
-import 'package:minibr/store/home.dart';
+import 'package:minibr/pages/home.dart';
 import 'package:minibr/store/store.dart';
 import 'package:provider/provider.dart';
 
